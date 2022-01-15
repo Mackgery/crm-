@@ -1,0 +1,44 @@
+#container h1{
+    font-size: 35px;
+    display: inline-block;
+}
+
+.btn_new{
+    display: inline-block;
+    background-color:  #171442;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 4px;
+    margin: 20px;
+    text-align: right;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+    font-weight: 800;
+}
+
+table th{
+    text-align: left;
+    padding: 10px 10px;
+    background: #2c2672d7;
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: gray;
+}
+
+table td{
+    padding: 10px;
+}
+
+.edit{
+    color: blue;
+}
+
+.elim{
+    color: red;
+}

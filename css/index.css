@@ -1,0 +1,97 @@
+body{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:28%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: transparent;
+    opacity: .75;
+    padding: 0 30px;    
+}
+
+.user-img{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 72px;
+    font-size: 25px;
+    border:0;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 22px;
+    font-size: 25px;
+    padding-top:19px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    width: 180px;
+    margin: 5px 0 25px;
+}
+
+.btn{
+background-color: rgb(94, 191, 230);
+font-size: 25px;
+}
+
+@media only screen and (max-width: 570px){
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .form-group input{
+        height: 30px;
+        font-size: 55%;
+        border:0;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+    
+    .form-group#user-group::before{
+        display: none;
+    }
+    
+    .form-group#contrasena-group::before{
+        display: none;
+    }
+    
+    button{
+        width: 60%;
+        margin: 5px 0 25px;
+    }
+
+    .btn{
+        background-color: rgb(95, 145, 165);
+        font-size: 55%;
+        }
+    
+
+}

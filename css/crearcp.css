@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    position: relative;
+    left: 15%;
+}
+
+.modal-title{
+    font-size: 1em;
+    position: relative;
+    font-weight: 800;
+    color: #2c2672f6;;
+}
+
+
+td{
+    font-size: 1em;
+    text-align: center;
+    color: #2c2672f6;
+    font-weight: 800;
+}
+
+input, select{
+    width: 100%;
+    font-size: 1em;
+    border-radius: 12px;
+    padding-left: 10px;
+    opacity: .65;
+    padding: 0px 15px;
+    font-weight: 800;
+}
+
+
+.modal-body{
+    width: 95%;
+    height: 50%;
+    position: relative;
+}
+
+
+.home_content .modal-footer .btn{
+    background-color:  #171442;
+    color: white;
+    border-radius: 12px;
+    }
